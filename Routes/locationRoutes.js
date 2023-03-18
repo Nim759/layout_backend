@@ -13,10 +13,10 @@ module.exports = function(app){
         //delete
         app.delete("/location/:id",LocationController.locationDeleted);
         
-        //get event
+        //get location
         app.get("/location/find/:id",LocationController.LocationID);
         
-        //get all events
+        //get all location
         app.get("/locations",LocationController.Locations);
 
         //add devices

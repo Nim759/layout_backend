@@ -8,12 +8,11 @@ var LocationSchema = new schema({
 name:{
     type:String,
     required:[true,'location Name field is required!'],
-    maxlength:100
+  
 },
 
 address:{
-    type:String,
-   
+    type:String, 
 
 },
 
